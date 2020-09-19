@@ -1,11 +1,33 @@
+body{
+font-family: sans-serif;
+}
+
+main{
+    background-image: url(imagenes/bg_login.jpg);
+}
+
+footer{
+    background: #3f444d;
+}
+
 .login-center{
     display: flex;
     align-items: center;
     justify-content: right;
-    min-height: 100vh;
+    min-height: 100vh;    
+}
+
+#center-div{    
+    padding-bottom: 15vh;
 }
 
 .#login_cont{
     max-width: 40rem;
     margin-bottom: 25vh;
+}
+
+#lista_usuario-cont{
+    justify-content: center;
+    display: block;
+    padding-top: 15vh;
 }
